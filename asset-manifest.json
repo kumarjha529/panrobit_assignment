@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/panrobit_assignment/static/css/main.412be676.css",
+    "main.js": "/panrobit_assignment/static/js/main.2f59e81e.js",
+    "index.html": "/panrobit_assignment/index.html",
+    "static/media/arrow.svg": "/panrobit_assignment/static/media/arrow.ae75987ee0722d99891a1807bf2cb0f8.svg",
+    "main.412be676.css.map": "/panrobit_assignment/static/css/main.412be676.css.map",
+    "main.2f59e81e.js.map": "/panrobit_assignment/static/js/main.2f59e81e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.412be676.css",
+    "static/js/main.2f59e81e.js"
+  ]
+}
