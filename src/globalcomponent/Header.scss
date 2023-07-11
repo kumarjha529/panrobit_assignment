@@ -1,0 +1,26 @@
+.Header_comp{
+    position: absolute;
+    top: 0;
+    left: 340px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    width: calc(100% - 340px);
+    border-bottom: 1px solid grey;
+
+    .profile{
+        font-size: 22px;
+
+    }
+    .user-icon{
+        display: flex;
+        align-items: center;
+        .user-image{
+            height: 30px;
+            width: 30px;
+            margin-right: 10px;
+            border-radius: 50px;
+        }
+    }
+}

@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.add-global-space {
+  padding: 50px;
+}
+
+.add-global-space {
+  #root {
+    position: relative;
+  }
+}
+
+.global-slidebar-component {
+  padding-top: 90px;
+  padding-left: 340px;
+}

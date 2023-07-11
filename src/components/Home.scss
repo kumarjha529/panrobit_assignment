@@ -1,0 +1,53 @@
+.home_page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+
+    .card {
+        &-center {
+            height: 500px;
+            width: 600px;
+            max-height: 500px;
+            border: 1px solid lightgray;
+            border-radius: 30px;
+            box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+            overflow: hidden;
+        }
+
+        &-header {
+            font-size: 22px;
+            height: 100px;
+            background: rgb(245, 240, 240);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        &-body {
+            height: 100px;
+            max-height: 380px;
+            min-height: 380px;
+            overflow-y: auto;
+            scroll-behavior: smooth;
+            scrollbar-width: thin;
+            margin: 10px;
+            padding-bottom: 10px;
+
+            &::-webkit-scrollbar-thumb {
+                background-color: rgba(0, 0, 0, 0.1);
+                border-radius: 8px;
+            }
+
+            &::-webkit-scrollbar {
+                width: 6px;
+            }
+
+            &::-webkit-scrollbar-track {
+                display: none;
+
+            }
+        }
+    }
+}
